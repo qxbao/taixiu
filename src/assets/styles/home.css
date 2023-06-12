@@ -1,0 +1,60 @@
+body {
+    background: #010101;
+    background-image: url("/images/home-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#registerHeader {
+    background: linear-gradient(to right,#fb7a0d,#fed64c);
+    color: black;
+    font-weight: 700;
+    border-radius: 5px 5px 0 0;
+}
+
+#registerPanel {
+    background: rgba(0,0,0,0.85);
+    border-radius: 5px;
+}
+
+.regInp {
+    background: none !important;
+    border-radius: 3px;
+    border: 1px solid #FFCA3F !important;
+    color: white !important;
+}
+
+.regInp ~ label {
+    color: #FFCA3F !important;
+    background: none !important;
+}
+
+.regInp ~ label::after {
+    background: none !important;
+}
+
+
+.regInp:focus, .regInp:hover {
+    outline:none !important;
+    box-shadow: none !important;
+
+}
+
+#regButton {
+    background: black;
+    border-radius: 5px;
+    border: 2px solid #FFCA3F;
+    color: #FFCA3F;
+}
+
+#regButton:hover {
+    box-shadow: 0 0 10px #fed64c;
+}
+
+#playButton {
+    background: linear-gradient(to top,#fb7a0d,#fed64c);
+    border: none;
+    color: #1c1c1c;
+    box-shadow: 0 7px #c9600b;
+    border-radius: 3px;
+}

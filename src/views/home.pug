@@ -1,0 +1,29 @@
+doctype html
+html(lang="vi")
+    head
+        include essential
+        link(rel="stylesheet", href="/styles/home.css")
+        title HS88 | Càng chơi càng thắng lớn - Đăng ký & đăng nhập ngay
+    body
+        .container-fluid.w-100.py-3(style="background:rgba(0,0,0,0.4)")
+            .row
+                img(src="/images/logo.png", alt="logo", srcset="").img-fluid.col-3.m-auto
+            .text-center
+                .d-inline-block.h4.mb-0.px-5.py-3#registerHeader TẠO TÀI KHOẢN
+                .card.border-0.mx-auto.w-50.mb-4#registerPanel
+                    .card-body.p-5
+                        form
+                            .form-floating.mb-3
+                                input(type="text", name="username", placeholder="Tên đăng nhập").form-control.regInp#usernameField
+                                label(for="usernameField") Tên tài khoản
+                            .form-floating.mb-3
+                                input(type="password", name="password", placeholder="Mật khẩu").form-control.regInp#passwordField
+                                label(for="passwordField") Mật khẩu
+                            .form-floating.mb-3
+                                input(type="password", placeholder="Nhập lại khẩu").form-control.regInp#repasswordField
+                                label(for="repasswordField") Nhập lại mật khẩu
+                button.py-3.px-5.d-block.m-auto.mb-4#regButton
+                    h4.mb-0.fw-bold Đăng ký
+                button.py-3.px-4.d-block.m-auto.mb-5#playButton
+                    h4.mb-0.fw-bold Chơi ngay bản web
+                h5.text-white.fw-normal HS88 - Nhà cái uy tín số 1 Việt Nam - Cổng game đổi thưởng tỉ lệ cực khủng!
